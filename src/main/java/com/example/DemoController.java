@@ -25,6 +25,6 @@ public class DemoController {
     }
     @GetMapping("/demo3")
     public String demo3(){
-        return "修改demo3";
+        return "修改demo";
     }
 }
