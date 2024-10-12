@@ -27,4 +27,9 @@ public class DemoController {
     public String demo3(){
         return "修改demo";
     }
+    @GetMapping("/demo4")
+    public String demo4(){
+        return "demo4";
+    }
+
 }
